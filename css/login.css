@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    position: relative;
+    background-color:#fafafa;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.success{
+    color: rgb(34, 143, 57);
+}
+.erreur{
+    color: #DC2F2F;
+}
+
+.wrapper{
+    margin-top: 80px;
+    background-color: #FFFF;
+    width: fit-content;
+    padding: 50px;
+    border: 0.05rem solid #ebeaea ;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px #2c272733;
+    display: flex;
+
+    & .container{
+        width: fit-content;
+        padding: 20px 40px;
+        margin-top: 5%;
+        border-right: 0.05rem solid #ebeaea;
+
+        & img{
+            width: 250px;
+        }
+        & p{
+            margin-top: 30px;
+
+            & a{
+                color: #FF7517;
+            }
+        }
+        
+    }
+    & .login-form{
+        padding: 20px 40px;
+        margin-left: 40px;
+
+        & form{
+            margin-top: 40px;
+
+            & .erreur-box {
+                padding: 10px 15px;
+                width: 215px;
+                background-color: #dc2f2f33;
+                border: 0.05rem solid #dc2f2f73;
+                border-radius: 10px;
+                word-wrap: break-word;
+
+                & p{
+                    margin-left: 0;
+                }
+            }
+            & p{
+                margin-left: -100px;
+                font-size: smaller;
+            }
+
+            & .forum-input{
+                display: flex;
+                margin: 10px 0;
+    
+                & ion-icon{
+                    border: 0.05rem solid #c5c4c4;
+                    border-radius: 10px 0 0 10px;
+                    border-right: none;
+                    padding: 10px 15px;
+                    color: rgb(224, 117, 45);
+                }
+                & input{
+                    outline: none;
+                    border: 0.05rem solid #c5c4c4;
+                    border-radius: 0 10px 10px 0;
+                    border-left: none;
+                    padding: 10px;
+                }
+            }
+
+            & input[type= "submit"]{
+                border: none;
+                float: right;
+                background-color: #FF7517;
+                color: #F6F4F4;
+                padding: 13px 15px;
+                border-radius: 10px;
+            }
+        }
+
+        
+        
+    }
+
+    
+}

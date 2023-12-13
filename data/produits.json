@@ -1,0 +1,72 @@
+[
+    {
+        "id": 35,
+        "image": "upload\/a.fatima_ANMESCLaptopComputer,Windows11Laptop,8GBRAM256GBROM,IntelCeleronQuad-CoreProcessors_30063.jpg",
+        "title": "ANMESC Laptop Computer, Windows 11 Laptop, 8GB RAM 256GB ROM",
+        "owner": 1,
+        "price": 2699,
+        "SOLD": 0,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 38,
+        "image": "upload\/a.fatima_Lenovo15.6Laptop,IdeaPad1,20GBRAM,1TBPCIeSSD,Wi-Fi6andBluetooth5.1,HDMI,SDCardReader_490950.jpg",
+        "title": "Lenovo 15.6 Laptop, IdeaPad 1, 20GB RAM, 1TB PCIe SSD, Wi-Fi 6 and Bluetooth 5.1, HDMI, SD Card Reader",
+        "owner": 1,
+        "price": 4699,
+        "SOLD": 17,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 40,
+        "image": "upload\/a.fatima_AcerNitro5GamingLaptopIntel12thGeni712650HNVIDIAGeForceRTX4060LaptopGPU_511151.jpg",
+        "title": "Acer Nitro 5 Gaming Laptop | Intel 12th Gen i7-12650H | NVIDIA GeForce RTX 4060 Laptop GPU",
+        "owner": 1,
+        "price": 12999,
+        "SOLD": 23,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 41,
+        "image": "upload\/a.fatima_OTVOCLaptop15.6inchWindows11IntelCeleronN5105Upto2.9GHz16GBRAM512GBPCIENvMeSSD4TBExpansion_643288.jpg",
+        "title": "OTVOC Laptop 15.6 inch Windows 11, Intel Celeron N5105, Up to 2.9GHz, 16GB RAM, 512GB PCIE NvMe SSD, 4TB Expansion",
+        "owner": 1,
+        "price": 12999,
+        "SOLD": 72,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 42,
+        "image": "upload\/a.fatima_HPNewest14UltralLightStudentLaptopIntelN4120QuadCore_52458.jpg",
+        "title": "HP Newest 14\" Ultral Light Student Laptop, Intel N4120 Quad-Core",
+        "owner": 1,
+        "price": 2899,
+        "SOLD": 7,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 43,
+        "image": "upload\/a.fatima_TulasiLaptopComputerLaptopwith12GBRAM512GBSSDIntelQuadCoresN4120Processor14inch1080PFullHDIPSScreen_248450.jpg",
+        "title": "Tulasi Laptop Computer, Laptop with 12GB RAM, 512GB SSD, Intel Quad-Cores N4120 Processor, 14 inch 1080P Full HD IPS Screen",
+        "owner": 1,
+        "price": 2589,
+        "SOLD": 15,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    },
+    {
+        "id": 44,
+        "image": "upload\/a.fatima_SAMSUNG15.6\u201dGalaxyBook2ProLaptopComputeri716GB512GB_339263.jpg",
+        "title": "SAMSUNG 15.6\u201d Galaxy Book2 Pro Laptop Computer, i7 \/ 16GB \/ 512GB, ",
+        "owner": 1,
+        "price": 14499,
+        "SOLD": 14,
+        "qty": 0,
+        "name": "Fatima Ez-zahraa AIT-HSSAIN"
+    }
+]

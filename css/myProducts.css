@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@400;500;600&display=swap');
+
+
+.wrapper{
+    & h2{
+        margin: 20px;
+        text-transform: uppercase;
+    }
+}
+
+.container{
+    padding: 15px 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    & .prod{
+        display: block;
+        position: relative;
+        border: 0.05rem solid #ebeaea;
+        background-color: #FFFF;
+        margin: 5px;
+        width: 400px;
+
+        & .img{
+            position: relative;
+            overflow: hidden;
+            width: 400px;
+            height: 200px;
+
+            & p{
+                background-color: #FF7517;
+                color: #F6F4F4;
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                font-family: 'Oswald', sans-serif; 
+                padding: 4px 7px;
+                border-radius: 4px;
+                
+                & span{
+                    font-family: 'Oswald', sans-serif; 
+                }
+            }
+
+            & img{
+                width: 300px;
+                margin-left: 40px;
+            }
+        }
+
+        & .prod-info{
+            display: block;
+            padding: 10px;
+
+            & .info{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+
+                & span{
+                    font-weight: bold;
+                    font-family: 'Oswald' , sans-serif;
+                }
+
+                & p{
+                    position: static;
+                    background-color: transparent;
+                    border: none;
+                    color: black;
+                }
+            }
+        }
+
+        & .edit{
+            float: right;
+            margin: 10px;
+            font-size: 23px;
+            font-weight: bolder;
+            color: rgb(34, 143, 57);
+        }
+
+    }
+}

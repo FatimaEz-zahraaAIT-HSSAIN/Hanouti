@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@400;500;600&display=swap');
+
+.container{
+    display: flex;
+    background-color: #FFFF;
+    padding: 40px;
+
+    & img{
+        height: 400px;
+        border: 0.05rem solid #ebeaea;
+        box-shadow: 2px 0px 10px #2c272733;
+
+    }
+
+    & .prod-info{
+        margin-left: 50px;
+
+        & .info{
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            font-size: larger;
+
+            & span{
+                font-weight: bold;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            & #price{
+                color: rgb(34, 143, 57);
+                font-weight: 700;
+            }
+        }
+    }
+}
